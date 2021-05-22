@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+    <meta charset="utf-8" />
+    <title>MyFamily</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/gallery.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="assets/images/Logo.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="Mama.html">Mother</a>
+                <a href="Papa.html">Dad</a>
+                <a href="Daughter.html">Sister</a>
+                <a href="Son.html">Me</a>
+                <a href="Contact us.html">Contact us</a>
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+        </nav>
+    </header>  
+    <main>
+       <section class="gallery">
+        <h2 class="title">Gallery</h2>
+           <div class="gallery-list">
+                <a href="assets/images/1.jpg" class="gallery-item">
+                    <div class="gallery-item-hover">Watch</div>
+                    <img src="assets/images/1.jpg" alt="">
+                </a>
+                <a href="assets/images/2.jpg" class="gallery-item">
+                    <div class="gallery-item-hover">Watch</div>
+                    <img src="assets/images/2.jpg" alt="">
+                </a>
+                <a href="assets/images/3.jpg" class="gallery-item">
+                    <div class="gallery-item-hover">Watch</div>
+                    <img src="assets/images/3.jpg" alt="">
+                </a>
+                <a href="assets/images/4.jpg" class="gallery-item">
+                    <div class="gallery-item-hover">Watch</div>
+                    <img src="assets/images/4.jpg" alt="">
+                </a>
+                <a href="assets/images/5.jpg" class="gallery-item">
+                    <div class="gallery-item-hover">Watch</div>
+                    <img src="assets/images/5.jpg" alt="">
+                </a>
+                <a href="assets/images/6.jpg" class="gallery-item">
+                    <div class="gallery-item-hover">Watch</div>
+                    <img src="assets/images/6.jpg" alt="">
+                </a>
+                <a href="assets/images/7.jpg" class="gallery-item">
+                    <div class="gallery-item-hover">Watch</div>
+                    <img src="assets/images/7.jpg" alt="">
+                </a>
+                <a href="assets/images/8.jpg" class="gallery-item">
+                    <div class="gallery-item-hover">Watch</div>
+                    <img src="assets/images/8.jpg" alt="">
+                </a>
+           </div>           
+       </section>
+          <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  <script>
+    $(".gallery-list").magnificPopup({
+      delegate: "a",
+      type: "image",
+      gallery: {
+        enabled: true
+      }
+    });
+  </script>
+    </main>
+     <footer>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="assets/images/Logo.png" alt="Logo"></a>
+        </div>
+        <p>If you want to write us or just interested in our family there are our social-media contacts.</p>
+        <div class="social">
+            <a href="https://www.google.com/intl/ru/gmail/about/"><img src="assets/images/em.png"
+                             alt=""></a>
+            <a href="https://www.facebook.com/"><img src="assets/images/face.png"
+                             alt=""></a>
+            <a href="https://myaccount.google.com/"><img src="assets/images/goo.png"
+                             alt=""></a>
+            <a href="https://www.instagram.com/?hl=ru"><img src="assets/images/inst.png"
+                             alt=""></a>
+        </div>
+        <p style="font-size: 50%;">All rights reserved by JENEVA. 2021</p>
+    </footer>
+</body>
+</html>
